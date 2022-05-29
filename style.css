@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    scroll-behavior: smooth;
+}
+.card-text{
+    font-size: 13px;
+}
+.latest a:hover{
+    background-color: purple;
+    transition: 0.5s;
+}
+.popular a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.dropdown:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: 0.5;
+}
